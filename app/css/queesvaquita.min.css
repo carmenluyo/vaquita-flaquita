@@ -458,7 +458,7 @@ div.content-article section p, div.content-article section span {
 div.content-article section p {
     color:#2a2a2e;
     font-size:18px;
-    line-height:24px;
+    line-height:40px;
     margin-top:0;
     margin-bottom:24px;
     text-align: center;
@@ -527,11 +527,11 @@ div.content-article1 section img {
     div.content-article section {
         max-width:1271px;
         width:auto;
-        margin:0 25.8064516129%
+        margin:0 10.806452%;
     }
     div.content-article section p {
         color:#2a2a2e;
-        font-size:26px;
+        font-size:40px;
         line-height:36px;
         margin-top:0;
         margin-bottom:60px

@@ -1,3 +1,10 @@
+body .containerv {
+
+    max-width: 1271px;
+    width: auto;
+    margin: 0 17%;
+    margin-left: 12px;
+}
 body {
     padding:0;
     margin:0;
@@ -528,7 +535,7 @@ div.content-article1 section img {
     div.content-article section {
         max-width:1271px;
         width:auto;
-        margin:0 17%
+        margin:0 0;
     }
     div.content-article section p {
         color:#2a2a2e;
@@ -547,10 +554,10 @@ div.content-article1 section img {
     div.content-article section h6 {
         color:#2a2a2e;
         font-family:"mirai-mediumuploaded_file", Verdana;
-        font-size:23px;
-        line-height:30px;
+        font-size:20px;
+        line-height:20px;
         margin-bottom:5px;
-        margin-top:25px
+        margin-top:20px
     }
 }
 div.content-carousel {
