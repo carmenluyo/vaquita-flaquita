@@ -1,7 +1,8 @@
 body {
     padding:0;
     margin:0;
-    font-size:16px
+    font-size:16px;
+    font-family: "mirai-lightuploaded_file", verdana !important;
 }
 body html {
     padding:0;
@@ -11,6 +12,11 @@ header {
     background-color:#fff;
     min-height:52px
 }
+
+.nav-link {
+    color:black;
+}
+
 @media only screen and (min-width: 769px) {
     header {
         width:100%;
@@ -359,6 +365,7 @@ footer .content-footer__copyright span {
     margin:0 auto;
     width:auto
 }
+
 div.content-hero {
     background-image:url(../img/home1.jpg);
     background-size:100%;
@@ -379,7 +386,6 @@ div.content-hero {
     }
 }
 div.content-hero section {
-    margin:0 0.35484% !important;
     padding-top:60px;
     text-align:center
 }
@@ -617,7 +623,6 @@ div.content-carousel section h2 {
     color:#2a2a2e
 }
 div.content-carousel section .carousel-container {
-    margin:0 7.6923076923% 21px;
     width:auto
 }
 div.content-carousel section .carousel-container .item {
@@ -788,4 +793,236 @@ div.content-carousel section .slide-count-wrap .divisor, div.content-carousel se
         color:#a2a2b2
     }
 }
-/*# sourceMappingURL=home.min.css.map */
+
+
+
+
+/* que es */
+
+@media only screen and (min-width: 769px) {
+    div.content-article section p {
+        color: #2a2a2e;
+        font-size: 40px;
+        line-height: 36px;
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+}
+
+.content-article {
+    padding: 40px 0 30px 0;
+    max-width: 1271px;
+    width: auto;
+}
+
+div.content-article section span {
+    color: #717180;
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+div.content-article section h6 {
+    color: #2a2a2e;
+    font-family: "mirai-mediumuploaded_file", Verdana;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 32px;
+    margin-top: 66px;
+}
+
+.tit-rece {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tam-img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+
+
+/* PRODUCTS */
+
+div.content-grid-products h2 {
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: 0;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+div.content-grid-products h3 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    margin-bottom: 35px;
+}
+
+div.content-grid-products section .products__text {
+    width: 100%;
+    text-align: center;
+}
+div.content-grid-products section .products__image img {
+    width: 11rem;
+    vertical-align: middle;
+    border-style: double;
+}
+
+div.content-grid-products section .products__text h3 {
+    font-family: "mirai-lightuploaded_file", Verdana;
+    font-weight: 900;
+    font-size: 20px;
+    color: #2a2a2e;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+div.content-grid-products section .products__text span {
+    font-family: "mirai-regularuploaded_file", Verdana;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    height: 75px;
+    display: block;
+    opacity: 1;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+div.content-article1 section p {
+    color: #2a2a2e;
+    font-family: arial;
+    font-size: 40px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+div.content-article1 section span {
+    color: #2a2a2e;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+
+/* testimonios */
+
+.arrow-test {
+    margin-top: 5%;
+    width: 85px;
+    height: 103px;
+    object-fit: contain;
+    margin-left: 495px;
+}
+
+.buttonv button {
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff469c;
+    border-color: #ff469c;
+    margin-bottom: 70px;
+    margin-top: 25px;
+    padding: 1rem 8rem;
+    margin-left: 350px;
+}
+
+/* CONTAC */
+
+div.content-article section p {
+    color: #2a2a2e;
+    font-size: 48px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.content-article section h6 {
+    color: #2a2a2e;
+    font-family: "mirai-mediumuploaded_file", Verdana;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.mod-grid label {
+    color: #2a2a2e;
+    font-family: "mirai-mediumuploaded_file", Verdana;
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.box-general {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #adadad;
+    border-radius: .25rem;
+    transition: border-color .15s;
+}
+
+.box-message {
+    display: block;
+    width: 100%;
+    padding: 5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #adadad;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.mod-grid button {
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff469c;
+    border-color: #ff469c;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 1rem 3rem;
+}
+
+/* DETALLE PRODUC */
+
+.tit {
+    text-decoration: underline;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.bot-on {
+    color: #fff;
+    background-color: #ff469c;
+    border-color: #ff469c;
+    margin-bottom: 15px;
+}
+
+.marg-img {
+    width: 17px;
+    height: 15px;
+    margin-top: 5px;
+}
