@@ -384,12 +384,8 @@ div.content-hero {
         background-position-x:center;
         background-repeat:no-repeat;
         background-color:#f8f8fa;
-        height:500px;
+        height:300px;
     }
-}
-div.content-hero section {
-    padding-top:60px;
-    text-align:center
 }
 div.content-hero section h1 {
     margin-top:0;
@@ -413,9 +409,8 @@ div.content-hero section span {
         margin:0 auto;
         width:auto;
         text-align:left;
-        padding:100px 0 0 0;
+        padding:75px 0 0 0;
         padding-left: 25px;
-        padding-top: 115px;
     }
     div.content-hero section h1 {
         font-size:58px;
@@ -424,7 +419,7 @@ div.content-hero section span {
         padding: 0 0.35484%;
         font-family:"mirai-lightuploaded_file", verdana;
         margin-bottom:22px;
-        color: white;
+        color: rgba(138, 230, 92, 1);
         font-weight: bold;
     }
     div.content-hero section span {
@@ -828,12 +823,10 @@ div.content-article section span {
 }
 
 div.content-article section h6 {
-    color: #2a2a2e;
-    font-family: "mirai-mediumuploaded_file", Verdana;
-    font-size: 26px;
-    line-height: 30px;
-    margin-bottom: 32px;
-    margin-top: 66px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 .tit-rece {
@@ -952,15 +945,6 @@ div.content-article section p {
     text-align: left;
     font-weight: bold;
     text-decoration: underline;
-}
-
-div.content-article section h6 {
-    color: #2a2a2e;
-    font-family: "mirai-mediumuploaded_file", Verdana;
-    font-size: 20px;
-    line-height: 20px;
-    margin-bottom: 5px;
-    margin-top: 20px;
 }
 
 .mod-grid label {
